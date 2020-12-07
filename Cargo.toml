@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 rand = "0.7"
-
+#propper cargo manifesting!
 [[bin]]
 name = "main"
 path = "./main.rs"
