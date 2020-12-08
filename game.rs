@@ -12,7 +12,7 @@ pub fn main() {
         println!("Please input your guess.");
         let mut guess = String::new();
 
-        //const can be used for constants, but you cant use inferred types. 
+        //const can be used for constants, but you cant use inferred types.
         //2
         io::stdin()
             .read_line(&mut guess)
@@ -23,8 +23,8 @@ pub fn main() {
             Ok(num) => num,
             Err(_) => {
                 println!("please enter a valid number!");
-                continue
-            },
+                continue;
+            }
         };
         //match is basically a switch
         match guess.cmp(&secret_number) {
